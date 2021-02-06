@@ -15,5 +15,5 @@ exports.routes.get('/v1/active/:user', active_users_1.activeUsersController);
 exports.routes.get('/v1/downwards/:repo', downwards_repos_1.downwardsController);
 exports.routes.get('/v2/downwards/:repo', token_check_1.tokenCheck, downwards_repos_1.downwardsController);
 exports.routes.get('/v1/login/', login_1.loginController);
-exports.routes.get('/page', page_1.page);
+exports.routes.get('/', page_1.page);
 //# sourceMappingURL=routes.js.map
